@@ -1,8 +1,6 @@
 # Preview2
 
-[![build status][travis-image]][travis-url]
-[travis-image]: https://api.travis-ci.org/fluidecho/preview2.png
-[travis-url]: https://travis-ci.org/fluidecho/preview2
+[![build status][travis-image]][travis-url][travis-image](https://api.travis-ci.org/fluidecho/preview2.png)[travis-url](https://travis-ci.org/fluidecho/preview2)
 
 Console logging, inspecting and debugging tool.  
 
