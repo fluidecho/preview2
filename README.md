@@ -35,7 +35,7 @@ In TypeScript.
 // ts-node example.ts --preview
 //
 
-import { preview, Log } from './';
+import { preview, Log } from 'preview2';
 
 const log: Log = preview(__filename);
 
@@ -46,6 +46,10 @@ let foo: any = {bar: 8211, hello: 'world', list: [1,2,3]};   // some object to i
 log('foo');
 log('foo object', foo);
 log(foo);
+```
+Run:
+```
+ts-node example.ts --preview
 ```
 
 ## License
