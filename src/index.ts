@@ -2,7 +2,7 @@
 //
 // Preview2: Console logging, inspecting and debugging tool.
 //
-// Version: 0.2.5
+// Version: 0.2.6
 // Author: Mark W. B. Ashcroft (mark [at] fluidecho [dot] com)
 // License: MIT or Apache 2.0.
 //

@@ -1,7 +1,7 @@
 {
   "name": "preview2",
   "description": "Console logging, inspecting and debugging tool.",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "main": "dist/index",
   "typings": "dist/index",
   "homepage": "https://github.com/fluidecho/preview2",
