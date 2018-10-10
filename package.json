@@ -1,8 +1,9 @@
 {
   "name": "preview2",
   "description": "Console logging, inspecting and debugging tool.",
-  "version": "0.2.2",
-  "main": "index.js",
+  "version": "0.2.5",
+  "main": "dist/index",
+  "typings": "dist/index",
   "homepage": "https://github.com/fluidecho/preview2",
   "author": "Mark W. B. Ashcroft <mark@fluidecho.com> (http://fluidecho.com)",
   "contributors": [

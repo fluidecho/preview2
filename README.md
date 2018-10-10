@@ -8,7 +8,7 @@
 [travis-url]: https://travis-ci.org/fluidecho/preview2
 [npm-image]: https://img.shields.io/npm/v/preview2.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/preview2
-[node-image]: https://img.shields.io/badge/node.js-%3E=_1-blue.svg?style=flat-square
+[node-image]: https://img.shields.io/badge/node.js-%3E=_8-blue.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
 
 Console logging, inspecting and debugging tool.  
@@ -25,6 +25,28 @@ From your terminal, requires [node.js](http://nodejs.org/).
 npm install preview2
 ```
 
+## Example
+
+In TypeScript.
+
+```
+/// <reference types="@types/node" />
+//
+// ts-node example.ts --preview
+//
+
+import { preview, Log } from './';
+
+const log: Log = preview(__filename);
+
+log('will always print', undefined, true);
+
+let foo: any = {bar: 8211, hello: 'world', list: [1,2,3]};   // some object to inspect.
+ 
+log('foo');
+log('foo object', foo);
+log(foo);
+```
 
 ## License
 

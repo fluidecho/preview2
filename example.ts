@@ -1,14 +1,16 @@
-
+/// <reference types="@types/node" />
 //
 // ts-node example.ts --preview
 //
 
-//const preview = require('./');
+import { preview, Log } from './';
 
-import { preview } from './';
+const log: Log = preview(__filename);
+
+log('will always print', undefined, true);
 
 let foo: any = {bar: 8211, hello: 'world', list: [1,2,3]};   // some object to inspect.
-
-preview('foo', undefined, true);
-preview('foo object', foo, false);
-
+ 
+log('foo');
+log('foo object', foo);
+log(foo);
